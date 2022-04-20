@@ -2,13 +2,22 @@
  #bloc_page{
     /* border: 1px solid blue; */
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-left: 1%;
 }
 
 body{
     /* border: 1px solid orange; */
-    width: 98%;
+    width: 100%;
     font-family: 'Raleway', sans-serif;
+}
+
+.bloc_header{
+    border: 1px solid orange;
+    width: 100%;
 }
 
 header{
@@ -809,6 +818,11 @@ footer ul{
         width: 100%;
     }
 
+    .bloc_header{
+        border: 1px solid red;
+        width: 100%;
+    }
+
     header {
         /* border: 1px solid red; */
         margin: 0;
@@ -1067,9 +1081,18 @@ footer ul{
     #bloc_page{
         /* border: 1px solid yellow; */
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin: 0%;
     }
                     /* ///////// HEADER ///////// */
+    
+    .bloc_header{
+        border: 1px solid yellow;
+        width: 100%;
+    }
     header{
         /* border: 1px solid yellow; */
         width: 100%;

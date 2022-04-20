@@ -16,79 +16,81 @@
 
 <body>
     <div id="bloc_page">
-        <header>
-            <div class="header_logo"><img src="images/logo/Booki.png" alt="logo booki">
-                <nav class="header_nav">
-                    <ul class="header_ul">
-                        <li><a href="#ancre_hebergement">Hébergements</a></li>
-                    </ul>
-                    <ul class="header_ul">
-                        <li><a href="#ancre_activites">Activités</a></li>
+        <div class="bloc_header">
+            <header>
+                <div class="header_logo"><img src="images/logo/Booki.png" alt="logo booki">
+                    <nav class="header_nav">
+                        <ul class="header_ul">
+                            <li><a href="#ancre_hebergement">Hébergements</a></li>
+                        </ul>
+                        <ul class="header_ul">
+                            <li><a href="#ancre_activites">Activités</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="titre_principal">
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p>En plein centre ville ou en pleine nature</p>
+                </div>
+            </header>
+
+            <form method="post" action="traitement.php" id="rechercher">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="search" name="Rechercher" value="Marseille, France" />
+                <button class="form_button" value="Rechercher">Rechercher</button>
+            </form>
+            <form method="post" action="traitement.php" id="rechercher_mobile">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="search" name="Rechercher" value="Marseille, France" />
+                <div id="icone_loupe"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </form>
+
+            <section class="filtres">
+                <h2>Filtres</h2>
+                <nav>
+                    <ul>
+                        <li class="filtre_economique_romantique">
+                            <div class="icone">
+                                <i class="fa-solid fa-money-bill-wave"></i>
+                            </div>
+                            <div>
+                                <a href="#">Economique</a>
+                            </div>
+                        </li>
+                        <li class="filtre_familial">
+                            <div class="icone">
+                                <i class="fa-solid fa-child"></i>
+                            </div>
+                            <div>
+                                <a href="#">Familial</a>
+                            </div>
+                        </li>
+                        <li class="filtre_economique_romantique">
+                            <div class="icone">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <div>
+                                <a href="#">Romantique</a>
+                            </div>
+                        </li>
+                        <li class="filtre_animaux">
+                            <div class="icone">
+                                <i class="fa-solid fa-cat"></i>
+                            </div>
+                            <div>
+                                <a href="#">Animaux autorisés</a>
+                            </div>
+                        </li>
                     </ul>
                 </nav>
-            </div>
-            <div class="titre_principal">
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre ville ou en pleine nature</p>
-            </div>
-        </header>
+            </section>
 
-        <form method="post" action="traitement.php" id="rechercher">
-            <i class="fa-solid fa-location-dot"></i>
-            <input type="search" name="Rechercher" value="Marseille, France" />
-            <button class="form_button" value="Rechercher">Rechercher</button>
-        </form>
-        <form method="post" action="traitement.php" id="rechercher_mobile">
-            <i class="fa-solid fa-location-dot"></i>
-            <input type="search" name="Rechercher" value="Marseille, France" />
-            <div id="icone_loupe"><i class="fa-solid fa-magnifying-glass"></i></div>
-        </form>
-
-        <section class="filtres">
-            <h2>Filtres</h2>
-            <nav>
-                <ul>
-                    <li class="filtre_economique_romantique">
-                        <div class="icone">
-                            <i class="fa-solid fa-money-bill-wave"></i>
-                        </div>
-                        <div>
-                            <a href="#">Economique</a>
-                        </div>
-                    </li>
-                    <li class="filtre_familial">
-                        <div class="icone">
-                            <i class="fa-solid fa-child"></i>
-                        </div>
-                        <div>
-                            <a href="#">Familial</a>
-                        </div>
-                    </li>
-                    <li class="filtre_economique_romantique">
-                        <div class="icone">
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-                        <div>
-                            <a href="#">Romantique</a>
-                        </div>
-                    </li>
-                    <li class="filtre_animaux">
-                        <div class="icone">
-                            <i class="fa-solid fa-cat"></i>
-                        </div>
-                        <div>
-                            <a href="#">Animaux autorisés</a>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-
-        <div class="info_ville">
-            <div class="icone_info">
-                <i class="fa-solid fa-info"></i>
+            <div class="info_ville">
+                <div class="icone_info">
+                    <i class="fa-solid fa-info"></i>
+                </div>
+                <p>Plus de 500 logements sont disponnibles dans cette ville</p>
             </div>
-            <p>Plus de 500 logements sont disponnibles dans cette ville</p>
         </div>
         <div class="centre_page">
             <section class="hebergement_marseille">
