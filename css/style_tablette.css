@@ -84,14 +84,15 @@
 
     .header_nav {
         /* border: 1px solid red; */
+        width: 100%;
         display: flex;
         font-size: 15px;
+        justify-content: center;
     }
 
     .header_ul {
         /* border: 1px solid red; */
         margin-top: 2px;
-        width: 200px;
         height: 100px;
         display: flex;
         flex-direction: row;
