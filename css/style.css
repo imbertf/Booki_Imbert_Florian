@@ -1,7 +1,8 @@
 
  #bloc_page{
     /* border: 1px solid blue; */
-    width: 95%;
+    width: 100%;
+    max-width: 1440px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,7 +11,7 @@
 }
 
 body{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: column;
@@ -19,48 +20,49 @@ body{
 }
 
 .bloc_header{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 100%;
 }
 
 header{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     margin: 0% 0 2% 0%;
-    width: 92%;
 }
 
 body h1 {
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     font-size: 1.3em;
     font-weight: bold;
     margin: 0.67em 0;
 }
 
 body h2{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     font-size: 1em;
     margin: 0.67em 0;
 }
 
 section h1{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 260px;
     margin: 45px 0px 0px 40px;
     margin-bottom: 5px; 
 }
 
 .header_logo{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .header_logo img{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 100px;
     height: 45px;
-    margin: 55px 0 0 40px;
+    display: flex;
+    align-self: center;
+    padding-left: 30px;
     color: #0065FC;
 }
 
@@ -74,14 +76,14 @@ a:hover{
 }
 
 .header_nav{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 25%;
     display: flex;
     font-size: 15px;
 }
 
 .header_ul{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     margin-top: 2px;
     width: 200px;
     height: 100px;
@@ -93,31 +95,31 @@ a:hover{
 }
 
 .header_ul li{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     list-style: none;
 }
 
 .header_ul:hover{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     text-decoration:#0065FC;
     border-top: 2px solid #0065FC;
     margin-top: 0;
 }
   
 .titre_principal{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     flex-direction: column;
 }
 
 .titre_principal h1{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     font-size: 20px;
     margin-bottom: 10px;
 }
 
 .titre_principal p{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     font-size: 15px;
     margin-top: 0;
 }
@@ -129,15 +131,14 @@ a:hover{
 }
 
 #rechercher{
-    border: 1px solid orange;
-    width: 35%;
+    /* border: 1px solid orange; */
     height: 50px;
     display: flex;
     align-items: flex-start;
 }
   
 #rechercher i{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     border: 2.5px solid #F2F2F2;
     display: flex;
     border-radius: 35%;
@@ -152,7 +153,7 @@ a:hover{
 }
   
 #rechercher input{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     border: 2px solid #F2F2F2;
     border-left: none;
     border-right: none;
@@ -165,7 +166,7 @@ a:hover{
 }
 
 .form_button{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     background-color: #0065FC;
     border: none;
     color: white;
@@ -183,7 +184,7 @@ a:hover{
   /* ZONE FILTRE DEBUT */
 
 .filtres{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -193,69 +194,41 @@ a:hover{
     justify-content: flex-start;
 }
 
-.filtres nav{
-    border: 1px solid orange;
-    display: flex;
-    width: 67%;
-}
-
 .filtres ul{
-    border: 1px solid orange;
-    width: 1000px;
+    /* border: 1px solid orange; */
     display: flex;
     padding-left: 0px;
     justify-content: space-around;
     list-style: none;
 }
 
-.filtre_familial{
-    border: 1px solid orange;
+.filtre_vignette {
+    /* border: 1px solid orange; */
     height: 47px;
     border: 2px solid lightgrey;
     border-radius: 40px;
-    width: 140px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     font-size: 17px;
     align-items: center;
+    margin-left: 30px;
 }
 
-.filtre_familial a{
-    border: 1px solid orange;
+.filtre_vignette:first-child {
+    margin-left: 40px;
+}
+
+.filtre_vignette a{
+    /* border: 1px solid orange; */
     margin: 20px;
     display: flex;
     justify-content: flex-start;
 }
 
-.filtre_animaux{
-    border: 1px solid orange;
-    height: 47px;
-    border: 2px solid lightgrey;
-    border-radius: 40px;
-    width: 195px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 16px;
-    align-items: center;
-}
-
-.filtre_economique_romantique{
-    border: 1px solid orange;
-    height: 47px;
-    border: 2px solid lightgrey;
-    border-radius: 40px;
-    width: 160px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 17px;
-    align-items: center;
-}
 
 .icone{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 50px;
     height: 51px;
     margin-left: -8px;
@@ -275,7 +248,7 @@ a:hover{
 }
 
 .icone_info{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     border: 1px solid #F2F2F2;
     border-radius: 40px;
@@ -289,7 +262,7 @@ a:hover{
 }
 
 .info_ville{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 98%;
     display: flex;
     align-items: center;
@@ -299,16 +272,16 @@ a:hover{
 
 /* CENTRE PAGE = SECTION HEBERGEMENT + SECTION LES PLUS POPULAIRES */
 .centre_page{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     width: 100%;
     height: 700px;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
 
 .centre_page i{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     color: #0065FC;
     width: 6%;
     font-size: 11px;
@@ -316,18 +289,22 @@ a:hover{
 
 /* SECTION HEBERGEMENTS */
 
-.hebergement_marseille{
+#ancre_hebergement {
     border: 1px solid orange;
+    margin: 45px 0px 0px 75px;
+}
+
+.hebergement_marseille{
+    /* border: 1px solid orange; */
     background-color: #F2F2F2;
-    margin: 10px 40px 0 0;
-    width: 875px;
+    width: 65%;
     height: 625px;
     border-radius: 20px;
 }
 
 
 .vignette_hebergement{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -335,7 +312,7 @@ a:hover{
 }
 
 .vignette_hotel{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     background-color: white;
     margin: 12px;
     border-radius: 20px;
@@ -348,7 +325,7 @@ a:hover{
 }
 
 .vignette_hotel img{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     border-radius: 12px 12px 0 0;
     margin-top: 5px;
     width: 96%;
@@ -357,7 +334,7 @@ a:hover{
 }
 
 .texte_vignette{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     text-align: start;
     margin-top: 3%;
@@ -369,19 +346,19 @@ a:hover{
 }
 
 .h2_vignette{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     margin: 0;
     font-size: 15px;
 }
 
 .p_vignette{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     margin: 0;
     font-size: 13px;
 }
 
 .etoile_vignette{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     margin: 0;
 }
 
@@ -390,7 +367,7 @@ a:hover{
     /* FOOTER SECTION HEBERGEMENT */
 
 .afficher_plus{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 100px;
     margin: 30px 0 0 40px;
     font-size: 17px;
@@ -401,7 +378,7 @@ a:hover{
 /* SECTION LES PLUS POPULAIRES DEBUT */
 
 .header_populaire{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -415,7 +392,7 @@ a:hover{
 
 
 .populaire{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     background-color: #F2F2F2;
     width: 420px;
     height: 623px;
@@ -429,19 +406,19 @@ a:hover{
 }
 
 .populaire h1{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 50%;
     margin: 0;
     margin-left: -25px;
 }
 
 .icone_populaire{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     margin-right: -30px;
 }
 
 .icone_populaire i{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     color: black;
     display: flex;
     justify-content: center;
@@ -450,12 +427,12 @@ a:hover{
 }
 
 .etoile_vide i{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     color: #F2F2F2;
 }
 
 .vignette_populaire{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -464,7 +441,7 @@ a:hover{
 }
 
 .vignette_populaire_hotel{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     background-color: white;
     margin: 15px;
     border-radius: 20px;
@@ -479,7 +456,7 @@ a:hover{
 }
 
 .vignette_populaire img{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     border-radius: 15px 0px 0px 15px;
     width: 40%;
     height: 94%;
@@ -488,7 +465,7 @@ a:hover{
 }
 
 .texte_populaire{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     text-align: start;
     margin-left: 5%;
@@ -501,32 +478,32 @@ a:hover{
 /* SECTION ACTIVITES DEBUT */
 
 .activites{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 100%;
     height: 570px;
     flex-direction: column;
 }
 
 .activites h1{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 200px;
     height: 25px;
     margin: 20px 20px 0 0;
 }
 
 .activites h2{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     margin-left: 20px;
 }
 
 .header_activites{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     width: 20%;
     margin: 0;
 }
 
 .activites_liste{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     list-style-type: none;
     display: flex;
     margin: 0;
@@ -534,7 +511,7 @@ a:hover{
 }
 
 .activites_liste_1{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     width: 50%;
     height: 510px;
@@ -545,7 +522,7 @@ a:hover{
 }
 
 .activites_liste_2{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     width: 50%;
     height: 510px;
@@ -559,7 +536,7 @@ a:hover{
 
     /* VIEUX PORT DEBUT */
 .vieux_port{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     border-radius: 20px;
     width: 305px;
     height: 450px;
@@ -570,7 +547,7 @@ a:hover{
 }
 
 .vieux_port img{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     border-radius: 20px 20px 0 0;
     margin-bottom: 10px;
     width: 100%;
@@ -582,7 +559,7 @@ a:hover{
 
     /* FORT DE POMEGUES DEBUT */
 .fort_de_pomegues{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     border-radius: 20px;
     width: 300px;
     height: 230px;
@@ -593,7 +570,7 @@ a:hover{
 }
 
 .fort_de_pomegues img{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     border-radius: 20px 20px 0 0;
     margin-bottom: 10px;
     width: 100%;
@@ -604,7 +581,7 @@ a:hover{
 
     /* ILE DE FRIOUL DEBUT */
 .iles_du_frioul{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     border-radius: 20px;
     width: 300px;
     height: 165px;
@@ -615,7 +592,7 @@ a:hover{
 }
 
 .iles_du_frioul img{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     border-radius: 20px 20px 0 0;
     margin-bottom: 10px;
     width: 100%;
@@ -626,7 +603,7 @@ a:hover{
 
     /* CALANQUES DEBUT */
 .calanques{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     border-radius: 20px;
     width: 305px;
     height: 450px;
@@ -637,7 +614,7 @@ a:hover{
 }
 
 .calanques img{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     border-radius: 20px 20px 0 0;
     margin-bottom: 10px;
     width: 100%;
@@ -649,7 +626,7 @@ a:hover{
 
     /* FORT DE LA GARDE DEBUT */
 .la_garde{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     border-radius: 20px;
     width: 300px;
     height: 230px;
@@ -660,7 +637,7 @@ a:hover{
 }
 
 .la_garde img{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     border-radius: 20px 20px 0 0;
     margin-bottom: 10px;
     width: 100%;
@@ -671,7 +648,7 @@ a:hover{
 
     /* ILE DE LONGCHAMP DEBUT */
 .longchamp{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     border-radius: 20px;
     width: 300px;
     height: 165px;
@@ -682,7 +659,7 @@ a:hover{
 }
 
 .longchamp img{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     border-radius: 20px 20px 0 0;
     margin-bottom: 10px;
     width: 100%;
@@ -697,7 +674,7 @@ a:hover{
 /* FOOTER DEBUT  */
 
 footer{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     background: #F2F2F2;
     width: 100%;
     display: flex;
@@ -707,12 +684,12 @@ footer{
 }
 
 footer ul{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     list-style: none;
 }
 
 .footer_navigation{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     width: 100%;
     height: 180px;
@@ -721,7 +698,7 @@ footer ul{
 }
 
 .propos{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -730,7 +707,7 @@ footer ul{
 }
 
 .hebergements{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -740,7 +717,7 @@ footer ul{
 }
 
 .assistance{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -796,7 +773,7 @@ footer ul{
 @media screen and (min-width : 768px) and (max-width : 1440px)
 {
     body {
-        border: 1px solid orange;
+        /* border: 1px solid orange; */
         font-family: 'Raleway', sans-serif;
         width: 100%;
         display: flex;
