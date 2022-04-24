@@ -1,23 +1,29 @@
 @media screen and (max-width: 768px) {
     #bloc_page {
-        border: 1px solid yellow;
+        /* border: 1px solid blue; */
         width: 100%;
+    }
+
+    body {
+        /* border: 1px solid yellow; */
+        font-family: 'Raleway', sans-serif;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        margin: 0%;
+        justify-content: center;
     }
 
     /* ///////// HEADER ///////// */
 
     .bloc_header {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     header {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         width: 100%;
         margin: 0%;
         padding: 0%;
@@ -28,24 +34,24 @@
     }
 
     .header_logo {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
     }
 
     .header_nav {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         width: 100%;
         display: flex;
         font-size: 16px;
     }
 
     .header_ul {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         margin-top: 0px;
         width: 50%;
         height: 65px;
@@ -62,12 +68,12 @@
     }
 
     .header_ul a {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         margin: 15px;
     }
 
     .titre_principal {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         margin: 0px 20px 0 19px;
         display: flex;
         flex-direction: column;
@@ -75,13 +81,13 @@
     }
 
     .titre_principal h1 {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         text-align: left;
         font-size: 24px;
     }
 
     .titre_principal p {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         font-size: 16px;
         margin-top: 2%;
     }
@@ -93,7 +99,7 @@
     }
 
     #rechercher_mobile {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         padding-left: 3%;
         height: 50px;
         display: flex;
@@ -101,7 +107,7 @@
     }
 
     #rechercher_mobile i {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         border: 2.5px solid #F2F2F2;
         display: flex;
         border-radius: 35%;
@@ -116,7 +122,7 @@
     }
 
     #rechercher_mobile input {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         border: 2px solid #F2F2F2;
         border-left: none;
         border-right: none;
@@ -129,7 +135,7 @@
     }
 
     #icone_loupe i {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         display: flex;
         border-radius: 35%;
         background-color: #0065FC;
@@ -139,44 +145,64 @@
     }
 
     .filtres {
-        border: 1px solid yellow;
-        width: 67%;
+        /* border: 1px solid yellow; */
+        width: 100%;
         display: flex;
         font-weight: bolder;
         flex-direction: column;
         margin-left: 4%;
+        align-items: flex-start;
     }
 
     .filtres h2 {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         width: 100%;
         margin: 35px 0 -10px 0;
     }
 
     .filtres p {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         margin-bottom: 0;
     }
 
     .filtres nav {
         width: 100%;
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
     }
 
     .filtres ul {
-        border: 1px solid yellow;
-        height: 185px;
+        /* border: 1px solid yellow; */
         display: flex;
-        padding-left: 0px;
         list-style: none;
-        flex-direction: row;
+        height: 195px;
+        width: 350px;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
+        align-content: space-around;
+    }
+
+    .filtre_vignette {
+        /* border: 1px solid yellow; */
+        height: 47px;
+        border: 2px solid lightgrey;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: row;
+        font-size: 17px;
+        align-items: center;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .filtre_vignette a {
+        /* border: 1px solid yellow; */
+        margin: 20px;
+        display: flex;
+        justify-content: flex-start;
     }
 
     .info_ville {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         width: 90%;
         margin: 0%;
         display: flex;
@@ -185,14 +211,14 @@
 
     .info_ville p {
         display: flex;
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         height: 60px;
         margin: 0;
         align-items: flex-end;
     }
 
     .icone_info {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         display: flex;
         border: 1px solid #F2F2F2;
         border-radius: 40px;
@@ -208,7 +234,7 @@
 
     .icone_info p {
         display: flex;
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         height: 60px;
         margin: 0;
         align-items: flex-end;
@@ -217,7 +243,7 @@
     /* //////////////////////////// CENTRE PAGE LES PLUS POPULAIRES + HEBERGEMENTS ////////////////////////////// */
 
     .centre_page {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         width: 100%;
         height: auto;
         display: flex;
@@ -226,17 +252,16 @@
     }
 
     .populaire {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         background-color: #F2F2F2;
         width: 100%;
-        margin-left: 0;
         border-radius: inherit;
         display: flex;
         justify-content: flex-start;
     }
 
     .header_populaire {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         width: 73%;
         display: flex;
         margin: 30px 10px 0 20px;
@@ -246,16 +271,16 @@
     .populaire h1 {
         width: 70%;
         margin: 0%;
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
     }
 
     .icone_populaire {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         margin-right: 0;
     }
 
     .vignette_populaire {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         display: flex;
         flex-wrap: wrap;
         margin: 0 0 0 0;
@@ -263,7 +288,7 @@
     }
 
     .vignette_populaire_hotel {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         background-color: white;
         margin: 20px;
         border-radius: 20px;
@@ -277,7 +302,7 @@
     }
 
     .vignette_hebergement {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -286,13 +311,13 @@
     }
 
     a {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         background-color: transparent;
         width: 100%;
     }
 
     .vignette_hotel {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         border-radius: 20px;
         width: 340px;
         height: 200px;
@@ -304,7 +329,7 @@
     }
 
     .texte_vignette {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         display: flex;
         text-align: start;
         margin: 3% 0 3% -15%;
@@ -314,8 +339,13 @@
         justify-content: space-between;
     }
 
+    #ancre_hebergement {
+        /* border: 1px solid yellow; */
+        margin: 45px 0px 0px 25px;
+    }
+
     .hebergement_marseille {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         background-color: inherit;
         display: flex;
         width: 100%;
@@ -326,13 +356,13 @@
     }
 
     .hebergement_marseille h1 {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         margin: 13px 0 13px 20px;
         width: 70%;
     }
 
     section h1 {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         display: flex;
         justify-content: flex-start;
         margin-left: 40px;
@@ -340,7 +370,7 @@
     }
 
     .afficher_plus {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         width: 110px;
         margin-left: 25px;
         font-size: 17px;
@@ -348,77 +378,38 @@
         justify-content: center;
     }
 
-    /* ////////////////////////////////////// ACTIVITES A MARSEILLE ///////////////////////////////////////// */
+    /* ///////////////////////////////////////////------------ARTICLE ACTIVITES A MARSEILLE------------//////////////////////////////////////////////// */
 
-    .header_activites {
-        border: 1px solid yellow;
-        display: flex;
-        width: 100%;
-        margin-left: 20px;
+    .bloc_activites {
+        /* border: 1px solid yellow; */
+        margin-top: 40px;
     }
 
-    .activites {
-        border: 1px solid yellow;
+    .bloc_activites h1{
+        margin: 20px 0 0 20px
+    }
+
+    .article_activites {
+        /* border: 1px solid yellow; */
         width: 100%;
         height: auto;
-        display: flex;
-        flex-direction: column;
-        margin-top: 30px;
-    }
-
-    .activites h1 {
-        border: 1px solid yellow;
-        display: flex;
-        height: 40px;
-        margin: 0;
-        padding: 0;
-        align-items: center;
-        justify-content: flex-end;
-    }
-
-    .activites_liste {
-        border: 1px solid yellow;
-        display: flex;
-        flex-direction: column;
         margin-bottom: 30px;
-    }
-
-    .activites_liste_1 {
-        border: 1px solid yellow;
         display: flex;
-        width: 80%;
-        height: 690px;
         flex-direction: column;
-        margin: 0;
-        align-items: center;
-        justify-content: space-around;
-        align-content: center;
     }
 
-    .activites_liste_2 {
-        border: 1px solid yellow;
-        display: flex;
-        width: 80%;
-        height: 690px;
-        flex-direction: column;
-        margin: 0;
-        align-items: center;
-        justify-content: space-around;
-        align-content: center;
-    }
-
-    .activites_liste li {
-        border: 1px solid yellow;
-        display: flex;
+    .article_vignette--mobile {
+        /* border: 1px solid yellow; */
         border-radius: 20px;
         width: 340px;
         height: 200px;
-        margin: 0;
+        margin: 20px;
+        box-shadow: 5px 10px 12px lightgrey;
     }
 
-    .activites_liste img {
-        border: 1px solid yellow;
-        border-radius: 20px 20px 0 0;
+    .article_vignette--mobile img {
+        /* border: 1px solid yellow; */
+        border-radius: 12px 12px 0 0;
         width: 100%;
         height: 150px;
         object-fit: cover;
@@ -426,7 +417,7 @@
 
     /* //////////////////////////////////// FOOTER ////////////////////////////////////////// */
     footer {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         background: #F2F2F2;
         width: 100%;
         height: 513px;
@@ -434,7 +425,7 @@
     }
 
     .footer_navigation {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         width: 75%;
         height: 600px;
         display: flex;
@@ -444,7 +435,7 @@
     }
 
     .propos {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         height: 125px;
         display: flex;
         flex-direction: column;
@@ -453,7 +444,7 @@
     }
 
     .hebergements {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         height: 125px;
         display: flex;
         flex-direction: column;
@@ -461,7 +452,7 @@
     }
 
     .assistance {
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         height: 125px;
         display: flex;
         flex-direction: column;
