@@ -176,7 +176,8 @@
         display: flex;
         list-style: none;
         height: 195px;
-        width: 350px;
+        width: 100%;
+        max-width: 400px;
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: center;
