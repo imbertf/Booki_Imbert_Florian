@@ -244,22 +244,20 @@ a:hover{
 }
 
 .icone_info{
-    /* border: 1px solid orange; */
-    display: flex;
-    border: 1px solid #F2F2F2;
+    border: 1px solid lightgrey;
     border-radius: 40px;
-    width: 25px;
-    height: 25px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    width: 20px;
+    height: 20px;
     margin-right: 10px;
     color: #0065FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info_ville{
     /* border: 1px solid orange; */
-    width: 98%;
+    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -284,7 +282,7 @@ a:hover{
 
 /* //////////////////////////////////////////--------------SECTION HEBERGEMENTS---------------/////////////////////////////////////////////////////////// */
 
-#ancre_hebergement {
+.ancre_hebergement {
     /* border: 1px solid orange; */
     margin: 45px 0px 0px 75px;
 }
@@ -557,12 +555,19 @@ footer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: flex-start;
+    align-content: center;
 }
 
 footer ul{
     /* border: 1px solid orange; */
     list-style: none;
+}
+
+.bloc_footer{
+    /* border: 1px solid orange; */
+    width: 100%;
+    max-width: 1440px;
+    justify-content: center;
 }
 
 .footer_navigation{
