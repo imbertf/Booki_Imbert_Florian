@@ -542,7 +542,17 @@
         height: 70%;
         object-fit: cover;
     }
-
+    
+    .article_activites :nth-child(6n) article{
+        /* border: 1px solid orange; */
+        height: 230px;
+    }
+    
+    .article_activites :nth-child(6n) img{
+        /* border: 1px solid orange; */
+        height: 170px;
+    }
+    
 
     /* //////////////////////////////////////////--------------FOOTER---------------/////////////////////////////////////////////////////////// */
 
