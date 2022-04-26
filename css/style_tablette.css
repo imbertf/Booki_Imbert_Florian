@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) and (max-width: 1282px) {
 
     #bloc_page {
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -11,7 +11,7 @@
 
 
     body {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         font-family: 'Raleway', sans-serif;
         display: flex;
         flex-direction: column;
@@ -22,48 +22,48 @@
     /* //////////////////////////////////////////--------------HEADER---------------/////////////////////////////////////////////////////////// */
 
     .bloc_header {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 100%;
         display: flex;
         flex-direction: column;
     }
 
     header {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         margin: 0% 0 2% 0%;
         flex-direction: column;
     }
 
     body h1 {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         font-size: 1.3em;
         font-weight: bold;
         margin: 0.67em 0;
     }
 
     body h2 {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         font-size: 1em;
         margin: 0.67em 0;
     }
 
     section h1 {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 260px;
         margin: 45px 0px 0px 40px;
         margin-bottom: 5px;
     }
 
     .header_logo {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .header_logo img {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 100px;
         height: 45px;
         display: flex;
@@ -82,7 +82,7 @@
     }
 
     .header_nav {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 100%;
         display: flex;
         font-size: 15px;
@@ -90,7 +90,7 @@
     }
 
     .header_ul {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin-top: 2px;
         height: 100px;
         display: flex;
@@ -101,32 +101,32 @@
     }
 
     .header_ul li {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         list-style: none;
     }
 
     .header_ul:hover {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         text-decoration: #0065FC;
         border-top: 2px solid #0065FC;
         margin-top: 0;
     }
 
     .titre_principal {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .titre_principal h1 {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         font-size: 20px;
         margin-bottom: 10px;
     }
 
     .titre_principal p {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         font-size: 15px;
         margin-top: 0;
     }
@@ -137,14 +137,14 @@
     }
 
     #rechercher {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         height: 50px;
         display: flex;
         justify-content: center;
     }
 
     #rechercher i {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         border: 2.5px solid #F2F2F2;
         display: flex;
         border-radius: 35%;
@@ -159,7 +159,7 @@
     }
 
     #rechercher input {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         border: 2px solid #F2F2F2;
         border-left: none;
         border-right: none;
@@ -172,7 +172,7 @@
     }
 
     .form_button {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         background-color: #0065FC;
         border: none;
         color: white;
@@ -187,7 +187,7 @@
     /* //////////////////////////////////////////--------------FILTRES---------------/////////////////////////////////////////////////////////// */
 
     .filtres {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         font-weight: bolder;
         font-size: 20px;
         display: flex;
@@ -196,7 +196,7 @@
     }
 
     .filtres ul {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 500px;
         height: 150px;
         display: flex;
@@ -208,7 +208,7 @@
     }
 
     .filtre_vignette {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         height: 47px;
         border: 2px solid lightgrey;
         border-radius: 40px;
@@ -219,7 +219,7 @@
     }
 
     .filtre_vignette a {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin: 20px;
         display: flex;
         justify-content: flex-start;
@@ -227,7 +227,7 @@
 
 
     .icone {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 50px;
         height: 51px;
         margin-left: -8px;
@@ -259,14 +259,14 @@
     }
 
     .info_ville {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .info_ville p {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         align-items: center;
     }
@@ -274,7 +274,7 @@
     /* ZONE FILTRES FIN */
     /* //////////////////////////////////////////--------------CENTRE PAGE---------------/////////////////////////////////////////////////////////// */
     .centre_page {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         height: auto;
         flex-direction: column;
@@ -282,14 +282,14 @@
     }
 
     .centre_page i {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         color: #0065FC;
         width: 6%;
         font-size: 11px;
     }
 
     .tablette_centre_page {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 80%;
         display: flex;
         flex-direction: column;
@@ -299,12 +299,12 @@
     /* //////////////////////////////////////////--------------SECTION HEBERGEMENTS---------------/////////////////////////////////////////////////////////// */
 
     .ancre_hebergement {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin: 20px;
     }
 
     .hebergement_marseille {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         background-color: #F2F2F2;
         width: 100%;
         height: auto;
@@ -316,11 +316,11 @@
     }
 
     .vignette_hebergement {
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .vignette_hotel {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         background-color: white;
         margin: 12px;
         border-radius: 20px;
@@ -333,7 +333,7 @@
     }
 
     .vignette_hotel img {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         border-radius: 12px 12px 0 0;
         margin-top: 5px;
         width: 96%;
@@ -342,7 +342,7 @@
     }
 
     .texte_vignette {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         text-align: start;
         margin-top: 3%;
@@ -354,19 +354,19 @@
     }
 
     .h2_vignette {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin: 0;
         font-size: 15px;
     }
 
     .p_vignette {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin: 0;
         font-size: 13px;
     }
 
     .etoile_vignette {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin: 0;
     }
 
@@ -375,7 +375,7 @@
     /* FOOTER SECTION HEBERGEMENT */
 
     .afficher_plus {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         font-size: 17px;
         margin: 20px 0 20px 0;
         display: flex;
@@ -385,19 +385,19 @@
     /* //////////////////////////////////////////--------------SECTION POPULAIRES---------------/////////////////////////////////////////////////////////// */
 
     .header_populaire {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin: 20px;
     }
 
     .populaire {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 100%;
         height: auto;
         margin: 20px;
     }
 
     .populaire h1{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 100%;
         margin: 0;
         display: flex;
@@ -409,7 +409,7 @@
     }
 
     .icone_populaire i {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         color: black;
         display: flex;
         justify-content: center;
@@ -418,18 +418,18 @@
     }
 
     .etoile_vide i {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         color: #F2F2F2;
     }
 
     .vignette_populaire {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 100%;
         flex-wrap: nowrap;
     }
 
     .vignette_populaire_hotel {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         background-color: white;
         margin: 15px;
         border-radius: 20px;
@@ -444,7 +444,7 @@
     }
 
     .vignette_populaire img {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         border-radius: 15px 0px 0px 15px;
         width: 40%;
         height: 94%;
@@ -453,7 +453,7 @@
     }
 
     .texte_populaire {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         text-align: start;
         margin-left: 5%;
@@ -468,14 +468,14 @@
     /* ///////////////////////////////////////////------------ARTICLE ACTIVITES A MARSEILLE------------//////////////////////////////////////////////// */
 
     .bloc_activites {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .article_activites {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 100%;
         align-content: space-evenly;
         justify-content: space-around;
@@ -536,16 +536,23 @@
         object-fit: cover;
     }
 
-    @media screen and (min-width: 768px) and (max-width: 970px) {
+    @media screen and (min-width: 768px) and (max-width: 975px) {
         .article_activites {
+            /* border: 1px solid red; */
             height: 800px
+        }
+
+        .vignette_populaire {
+            /* border: 1px solid red; */
+            width: 100%;
+            flex-wrap: wrap;
         }
     }
 
     /* //////////////////////////////////////////--------------FOOTER---------------/////////////////////////////////////////////////////////// */
 
     footer {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         background: #F2F2F2;
         width: 100%;
         display: flex;
@@ -555,7 +562,7 @@
     }
 
     footer ul {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         list-style: none;
     }
 
@@ -566,7 +573,7 @@
     }
 
     .footer_navigation {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         width: 100%;
         height: 180px;
@@ -576,7 +583,7 @@
     }
 
     .propos {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         height: 500px;
         display: flex;
         flex-direction: column;
@@ -584,7 +591,7 @@
     }
 
     .hebergements {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         height: 100px;
         display: flex;
         flex-direction: column;
@@ -592,7 +599,7 @@
     }
 
     .assistance {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         height: 100px;
         display: flex;
         flex-direction: column;
