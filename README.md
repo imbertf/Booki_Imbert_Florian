@@ -6,7 +6,7 @@ Projet 2 de la formation developpeur web, Openclassroom.
 
 [-BORDER-]
 
-blue: grande résolution
+orange: > 1282px
 
 red: tablette
 
@@ -17,23 +17,11 @@ yellow: mobile
 
 Chaques parties du CSS sont séparées afin de faciliter la recherche comme suit:
 
-exemple:
+/* //////////////////////////////////////////--------------HEADER---------------/////////////////////////////////////////////////////////// */
 
-  /* ZONE RECHERCHE DEBUT */
-  
-  [...]
-  
-  /* ZONE RECHERCHE FIN */
- 
- 
+
 [-MEDIA QUERIE-]
 
-Les zones Media Querie sont représentées comme suit:
-
-/* ////////////////////////////////// MEDIA QUERIES GRAND ECRAN /////////////////////////////////////////// */
-
-/* ////////////////////////////////// MEDIA QUERIES TABLETTE ////////////////////////////////////////////// */
-
-/* ////////////////////////////////// MEDIA QUERIES MOBILE //////////////////////////////////////////////// */
+Les zones Media Querie sont dans des sheets indépendantes
 
 ----------------------------------------------------

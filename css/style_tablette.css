@@ -298,9 +298,9 @@
 
     /* //////////////////////////////////////////--------------SECTION HEBERGEMENTS---------------/////////////////////////////////////////////////////////// */
 
-    .ancre_hebergement {
+    #ancre_hebergement {
         /* border: 1px solid red; */
-        margin: 20px;
+        margin: 45px 0 20px 0;
     }
 
     .hebergement_marseille {
@@ -313,10 +313,6 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-    }
-
-    .vignette_hebergement {
-        /* border: 1px solid red; */
     }
 
     .vignette_hotel {
