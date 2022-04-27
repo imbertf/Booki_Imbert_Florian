@@ -282,7 +282,7 @@ a:hover{
 
 /* //////////////////////////////////////////--------------SECTION HEBERGEMENTS---------------/////////////////////////////////////////////////////////// */
 
-.ancre_hebergement {
+#ancre_hebergement {
     /* border: 1px solid orange; */
     margin: 45px 0px 0px 75px;
 }
@@ -472,6 +472,11 @@ a:hover{
 .bloc_activites {
     /* border: 1px solid orange; */
     width: 100%;
+}
+
+#ancre_activites {
+    /* border: 1px solid orange; */
+    margin: 45px 0px 0px 75px;
 }
 
 .article_activites{
